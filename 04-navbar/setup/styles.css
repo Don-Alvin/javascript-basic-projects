@@ -245,3 +245,12 @@ nav {
 		color: var(--clr-primary-7);
 	}
 }
+
+.fa-times {
+	color: red;
+	transition: 1s;
+}
+
+.fa-times:hover {
+	transform: rotate(180deg);
+}
